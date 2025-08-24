@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+@theme {
+  --color-sage: #809671;
+  --color-cream: #e5e0d8;
+  --color-olive: #b3b792;
+  --color-sand: #d2ab80;
+  --color-brown: #725c3a;
+  --color-beige: #e5d2b8;
+}
+
+body {
+  font-family: "Playfair Display", serif;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+.show-menu {
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+  display: block !important;
+}
+
+.bubble-link {
+  @apply bg-white/10 text-cream px-6 py-3 rounded-full shadow-md hover:bg-sage/80 hover:text-white transition-all duration-300 ease-out text-center w-full max-w-xs text-sm backdrop-blur-md;
+  transform: scale(0.95);
+  opacity: 0;
+  animation: bubbleIn 0.4s forwards;
+}
+
+@keyframes bubbleIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.8) translateY(10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+/* Delay utilities (since Tailwind doesn't allow animation-delay via class) */
+.delay-75 {
+  animation-delay: 75ms;
+}
+
+.delay-100 {
+  animation-delay: 100ms;
+}
+
+.delay-150 {
+  animation-delay: 150ms;
+}
+
+.delay-200 {
+  animation-delay: 200ms;
+}
+
+.delay-300 {
+  animation-delay: 300ms;
+}
+
+.delay-400 {
+  animation-delay: 400ms;
+}
+
+/* Optional: bubble menu slide in */
+.show-menu {
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+  display: block !important;
+}

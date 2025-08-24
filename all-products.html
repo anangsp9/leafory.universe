@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/leafory3.webp" type="image/webp" />
+    <title>Leafory - Koleksi Lengkap Leafory Universe</title>
+    <link href="./src/output.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body class="bg-cream text-brown">
+    <header class="relative py-3 px-6 pb-8 bg-brown text-white">
+        <div class="text-center relative z-1">
+            <h1 class="text-2xl font-semibold tracking-wide">Semua Produk</h1>
+            <p class="text-sm text-white/80 mt-1">Koleksi lengkap produk leafory</p>
+        </div>
+        <!-- gradasi bawah -->
+        <div class="pointer-events-none absolute bottom-0 left-0 right-0 h-4 bg-gradient-to-b from-brown to-cream z-0">
+        </div>
+    </header>
+
+    <!-- Dekorasi Desktop Tengah (Kanan) -->
+    <div class="relative h-0 hidden lg:block">
+        <img src="assets/philo-pink-mereng.webp" alt="Dekor Tengah Kanan" class="absolute right-0 top-[30px] -translate-y-1/4
+           w-[13vw] max-w-[200px] h-auto
+           opacity-99 z-10 -scale-x-100 pointer-events-none" />
+    </div>
+    <!-- Dekorasi Desktop Tengah (Kiri) -->
+    <div class="relative h-0 hidden lg:block">
+        <img src="assets/philo-pink-mereng.webp" alt="Dekor Tengah Kiri" class="absolute left-0 top-[30px] -translate-y-1/4
+           w-[13vw] max-w-[200px] h-auto
+           opacity-99 z-10  pointer-events-none" />
+    </div>
+
+    <!-- <main class="container mx-auto px-6 md:px-12 lg:px-16 xl:px-36 py-12"> -->
+
+    <!-- SECTION: TANAMAN -->
+    <section id="Tanaman" class="relative pt-12">
+
+        <!-- Judul Section -->
+        <div class="section-title group text-center mb-8">
+            <h2 class="title opacity-0 translate-y-4 transition-all duration-700 text-3xl font-bold text-brown">
+                Tanaman
+            </h2>
+            <div class="line w-2 h-1 bg-sage mx-auto mt-2 rounded-full transition-[width] duration-[900ms]"></div>
+        </div>
+
+        <!-- Dekorasi Mobile (Kanan) -->
+        <img src="assets/philo-pink-mereng.webp" alt="Dekor Kanan Mobile" class="block lg:hidden absolute right-0 top-[25px]
+    w-[28vw] max-w-[120px] h-auto opacity-100 z-10 -scale-x-100 pointer-events-none">
+        <!-- Dekorasi Mobile (Kiri) -->
+        <img src="assets/philo-pink-mereng.webp" alt="Dekor Kiri Mobile" class="block lg:hidden absolute left-0 top-[25px]
+    w-[28vw] max-w-[120px] h-auto opacity-100 z-10 pointer-events-none">
+
+        <div class="container mx-auto px-6 md:px-12 lg:px-16 xl:px-36">
+            <div id="card-container" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 mb-12">
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- SECTION: AKSESORIS -->
+    <section id="Aksesoris" class="relative pt-[24px]">
+
+        <!-- Dekorasi Desktop Tengah (Kanan) -->
+        <img src="assets/philo-7-ijok.webp" alt="Dekor Tengah Kanan" class="hidden lg:block absolute right-0 top-[-30px]
+       w-[10vw] max-w-[140px] h-auto opacity-99 z-0 -scale-x-100 pointer-events-none" />
+
+        <!-- Dekorasi Desktop Tengah (Kiri) -->
+        <img src="assets/philo-7-ijok.webp" alt="Dekor Tengah Kiri" class="hidden lg:block absolute left-0 top-[-30px]
+       w-[10vw] max-w-[140px] h-auto opacity-99 z-0 pointer-events-none" />
+
+        <!-- Judul Section -->
+        <div class="section-title group text-center mb-8">
+            <h2 class="title opacity-0 translate-y-4 transition-all duration-700 text-3xl font-bold text-brown">
+                Aksesoris
+            </h2>
+            <div class="line w-2 h-1 bg-sage mx-auto mt-2 rounded-full transition-[width] duration-[900ms]"></div>
+        </div>
+
+        <!-- Dekorasi Mobile (Kanan) -->
+        <img src="assets/philo-7-ijok.webp" alt="Dekor Kanan Mobile" class="block lg:hidden absolute right-0 top-[-19px]
+    w-[18vw] max-w-[100px] h-auto opacity-100 z-10 -scale-x-100 pointer-events-none">
+        <!-- Dekorasi Mobile (Kiri) -->
+        <img src="assets/philo-7-ijok.webp" alt="Dekor Kiri Mobile" class="block lg:hidden absolute left-0 top-[-19px]
+    w-[18vw] max-w-[100px] h-auto opacity-100 z-10 pointer-events-none">
+        <!-- isi card -->
+        <div class="container mx-auto px-6 md:px-12 lg:px-16 xl:px-36">
+            <div id="card-container-tools"
+                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 mb-12">
+            </div>
+        </div>
+
+        </div>
+    </section>
+
+    <!-- SECTION: MERCHANDISE -->
+    <section id="Merchandise" class="relative py-[24px]">
+
+        <!-- Dekorasi Desktop Tengah (Kanan) -->
+        <img src="assets/philo-ijo-rek.webp" alt="Dekor Tengah Kanan" class="hidden lg:block absolute right-0 top-[-40px]
+       w-[15vw] max-w-[210px] h-auto opacity-99 z-10 -scale-x-100 pointer-events-none" />
+        <!-- Dekorasi Desktop Tengah (Kiri) -->
+        <img src="assets/philo-ijo-rek.webp" alt="Dekor Tengah Kiri" class="hidden lg:block absolute left-0 top-[-40px]
+       w-[15vw] max-w-[210px] h-auto opacity-99 z-10 pointer-events-none" />
+
+        <!-- Judul Section -->
+        <div class="section-title group text-center mb-8">
+            <h2 class="title opacity-0 translate-y-4 transition-all duration-700 text-3xl font-bold text-brown">
+                Merchandise
+            </h2>
+            <div class="line w-2 h-1 bg-sage mx-auto mt-2 rounded-full transition-[width] duration-[900ms]"></div>
+        </div>
+
+        <!-- Dekorasi Mobile (Kanan) -->
+        <img src="assets/philo-ijo-rek.webp" alt="Dekor Kanan Mobile" class="block lg:hidden absolute right-0 top-[-32px]
+    w-[28vw] max-w-[160px] h-auto opacity-100 z-10 -scale-x-100 pointer-events-none">
+
+        <!-- Dekorasi Mobile (Kiri) -->
+        <img src="assets/philo-ijo-rek.webp" alt="Dekor Kiri Mobile" class="block lg:hidden absolute left-0 top-[-32px]
+    w-[28vw] max-w-[160px] h-auto opacity-100 z-10 pointer-events-none">
+
+        <div class="container mx-auto px-6 md:px-12 lg:px-16 xl:px-36">
+            <div id="card-container-fashion"
+                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 mb-12">
+            </div>
+        </div>
+
+    </section>
+
+    </main>
+</body>
+
+<!-- Dekorasi Mobile Tengah (Kiri) -->
+<div class="relative h-0 block md:hidden">
+    <img src="assets/philo-pink-nggantung.webp" alt="Dekor Tengah Mobile" class="absolute left-0 top-0 -translate-y-[55%]
+           w-[37vw] max-w-[174px] h-auto
+           opacity-99 z-0 pointer-events-none" />
+</div>
+
+<!-- Footer -->
+<footer id="footer" class="bg-brown/90 text-white py-12">
+    <div class="container mx-auto px-6 md:px-12 lg:px-16 xl:px-36">
+        <div class="grid md:grid-cols-4 gap-8">
+            <div>
+                <h3 class="text-2xl font-bold mb-4">Leafory</h3>
+                <p class="text-white/70 text-sm leading-relaxed">
+                    Menyediakan tanaman philodendron berkualitas tinggi untuk mempercantik rumah Anda sejak 2025.
+                </p>
+            </div>
+            <div>
+                <h4 class="font-semibold mb-4">Produk</h4>
+                <ul class="space-y-2 text-sm text-white/70">
+                    <li><a href="#Tanaman" class="hover:text-sage transition-colors">Tanaman</a></li>
+                    <li><a href="#Aksesoris" class="hover:text-sage transition-colors">Pot & Aksesoris</a></li>
+                    <li><a href="#Aksesoris" class="hover:text-sage transition-colors">Pupuk & Perawatan</a></li>
+                    <li><a href="#Merchandise" class="hover:text-sage transition-colors">Merchandise</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="font-semibold mb-4">Layanan</h4>
+                <ul class="space-y-2 text-sm text-white/70">
+                    <li><a href="index.html" class="hover:text-sage transition-colors">Konsultasi</a></li>
+                    <li><a href="index.html" class="hover:text-sage transition-colors">Pengiriman</a></li>
+                    <li><a href="index.html" class="hover:text-sage transition-colors">Garansi</a></li>
+                    <li><a href="index.html" class="hover:text-sage transition-colors">Dekorasi</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="font-semibold mb-4">Ikuti Kami</h4>
+                <div class="flex flex-wrap gap-4 max-w-[200px]">
+                    <!-- Instagram -->
+                    <a href="https://www.instagram.com/leafory.universe?igsh=MWF0MnR6OTZxMHM1bw==" target="_blank"
+                        class="w-10 h-10 bg-sage rounded-full flex items-center justify-center hover:bg-sage/80 transition-colors">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+
+                    <!-- Facebook -->
+                    <a href="https://www.facebook.com/profile.php?id=61578010316296" target="_blank"
+                        class="w-10 h-10 bg-sage rounded-full flex items-center justify-center hover:bg-sage/80 transition-colors">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+
+                    <!-- WhatsApp -->
+                    <a href="https://wa.me/6282241416360" target="_blank"
+                        class="w-10 h-10 bg-sage rounded-full flex items-center justify-center hover:bg-sage/80 transition-colors">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+
+                    <!-- TikTok -->
+                    <a href="https://www.tiktok.com/@leafory.universe?_t=ZS-8yDNcONbaoJ&_r=1" target="_blank"
+                        class="w-10 h-10 bg-sage rounded-full flex items-center justify-center hover:bg-sage/80 transition-colors">
+                        <i class="fab fa-tiktok"></i>
+                    </a>
+
+                    <!-- YouTube -->
+                    <a href="https://youtube.com/@leafory.universe?si=_mTjFmhBi3Pa080a" target="_blank"
+                        class="w-10 h-10 bg-sage rounded-full flex items-center justify-center hover:bg-sage/80 transition-colors">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+
+                    <!-- Shopee -->
+                    <a href="http://shopee.co.id/leafory.universe" target="_blank"
+                        class="w-10 h-10 bg-sage rounded-full flex items-center justify-center hover:bg-sage/80 transition-colors">
+                        <i class="fas fa-store"></i>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+        <div class="border-t border-white/20 mt-8 pt-8 text-center text-sm text-white/70">
+            <p>&copy; 2025 Leafory. Semua hak dilindungi.</p>
+        </div>
+    </div>
+</footer>
+
+<script>
+    // Smooth scrolling for navigation links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            const target = document.querySelector(this.getAttribute('href'));
+            if (target) {
+                target.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+            }
+            // Close mobile menu if open
+            document.getElementById('mobileMenu').classList.add('hidden');
+        });
+    });
+
+    // Add scroll effect to navigation
+    window.addEventListener('scroll', function () {
+        const nav = document.querySelector('nav');
+        if (window.scrollY > 100) {
+            nav.classList.add('shadow-lg');
+        } else {
+            nav.classList.remove('shadow-lg');
+        }
+    });
+
+    // Animasi garis hijau dan teks section dengan js murni
+    const sections = document.querySelectorAll('.section-title');
+
+    const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                const line = entry.target.querySelector('.line');
+                const title = entry.target.querySelector('.title');
+
+                // Mulai animasi garis
+                line.classList.add('w-20');
+
+                // Setelah garis selesai, munculkan judul
+                setTimeout(() => {
+                    title.classList.remove('opacity-0', 'translate-y-4');
+                    title.classList.add('opacity-100', 'translate-y-0');
+                }, 700);
+                observer.unobserve(entry.target);
+            }
+        });
+    });
+
+    sections.forEach(section => observer.observe(section));
+
+    //animasi untuk card
+    const cards = document.querySelectorAll('.card');
+
+    const cardObserver = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.remove('opacity-0', 'translate-y-16');
+                entry.target.classList.add('opacity-100', 'translate-y-0');
+                observer.unobserve(entry.target); // Hanya animasi sekali
+            }
+        });
+    }, {
+        threshold: 0.1 // Saat 10% card masuk viewport
+    });
+
+    cards.forEach(card => cardObserver.observe(card));
+
+    // Animasi scroll-in untuk semua .anim-card
+    // =====================
+    // Data
+    // =====================
+    const products = [
+        { name: "Philo Pink Princess", image: "assets/philo-pink-princess2.webp", desc: "Daun gelap berpadu semburat pink mencolok, tampil unik, elegan, dan jadi incaran kolektor tanaman hias eksklusif.", price: "75k dan 350k", link: "https://shopee.co.id/leafory.universe" },
+        { name: "Philo White Princess", image: "assets/philo-white-princess2.webp", desc: "Tanaman berdaun hijau gelap dengan semburat putih elegan, tampil anggun, eksklusif, dan cocok mempercantik sudut ruangan.", price: "75k dan 350k", link: "https://shopee.co.id/leafory.universe" },
+        { name: "Philo Moonlight", image: "assets/philo-moonlight.webp", desc: "Tanaman hias berdaun hijau terang menyala, tampil elegan, mudah dirawat, dan cocok untuk dekorasi ruangan modern.", price: "35k - 75k", link: "https://shopee.co.id/leafory.universe" },
+        { name: "Philo Prince/Orange", image: "assets/philo-prince.webp", desc: "Tanaman berdaun oranye cerah dengan gradasi hijau, tampilkan kesan hangat, segar, dan eksotis untuk dekorasi ruangan modern.", price: "35k - 75k", link: "https://shopee.co.id/leafory.universe" },
+        { name: "Philo Pink Congo", image: "assets/philo-pink-congo2.webp", desc: "Tanaman dengan daun berwarna pink cerah yang eksotis, tampil mencolok, cocok mempercantik ruangan dengan nuansa tropis elegan.", price: "35k - 75k", link: "https://shopee.co.id/leafory.universe" },
+        { name: "Philo Black Cardinal", image: "assets/philo-black-cardinal.webp", desc: "Daun gelap mengilap bernuansa merah kehitaman, tampil eksotik dan bold, cocok untuk dekorasi rumah yang elegan.", price: "150k - 350k", link: "https://shopee.co.id/leafory.universe" },
+        { name: "Philo Micans", image: "assets/philo-micans.webp", desc: "Tanaman berdaun kecil beludru berwarna hijau gelap keunguan, tampak anggun, menjuntai indah, cocok untuk hiasan gantung elegan.", price: "15k dan 275k", link: "https://shopee.co.id/leafory.universe" },
+        { name: "Philo Micans Air", image: "assets/philo-micans-air.webp", desc: "Philodendron Micans air dengan daun beludru hijau keemasan, tumbuh elegan, cocok mempercantik ruangan rumah Anda.", price: "90k dan 115k", link:"https://shopee.co.id/Tanaman-Micans-Pot-Kaca-Bening-i.1575401095.28788658971" },
+        { name: "Philo Katak/Martianun", image: "assets/philo-katak2.webp", desc: "Tanaman dengan daun besar mengilap berbentuk unik menyerupai katak, tampil eksotis, tebal, dan cocok sebagai dekorasi tropis elegan.", price: "50k - 500k", link: "https://shopee.co.id/leafory.universe" },
+        { name: "Philo Gloriosum", image: "assets/philo-gloriosum2.webp", desc: "Tanaman berdaun beludru hijau lebar dengan tulang daun putih mencolok, tampil mewah, elegan, dan sangat memikat perhatian.", price: "75k - 350k", link: "https://shopee.co.id/leafory.universe" },
+        { name: "Philo Melanochrysum", image: "assets/philo-melanochrysum.webp", desc: "Tanaman dengan daun panjang beludru hijau tua dengan urat keemasan, tampil mewah, eksotis, dan cocok untuk koleksi premium.", price: "35k - 350k", link: "https://shopee.co.id/leafory.universe" },
+        { name: "Philo Birkin", image: "assets/philo-birkin.webp", desc: "Daun hijau bergaris putih elegan, tampil menawan, cocok sebagai tanaman hias indoor yang unik dan mudah dirawat.", price: "75k - 350k", link: "https://shopee.co.id/leafory.universe" },
+    ];
+
+    const colors = ["sage", "olive", "sand"]; // pastikan disafelist di tailwind.config.js jika perlu
+
+    // =====================
+    // Observer (animasi scroll-in)
+    // =====================
+    const animCardObserver = new IntersectionObserver((entries, obs) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.remove('opacity-0', 'translate-y-16');
+                entry.target.classList.add('opacity-100', 'translate-y-0');
+                obs.unobserve(entry.target); // sekali saja
+            }
+        });
+    }, { threshold: 0.15 });
+
+    // =====================
+    // Render semua kartu SEKALIGUS, lalu observe
+    // =====================
+    const container = document.getElementById('card-container');
+
+    // 1) Buat HTML semua kartu
+    let htmlSemuaKartu = '';
+    products.forEach((p, index) => {
+        const color = colors[index % colors.length];
+        htmlSemuaKartu += /*html*/`
+    <div class="anim-card w-full bg-white rounded-2xl shadow-lg overflow-hidden flex flex-col
+            opacity-0 translate-y-16 transition-all duration-[1000ms] ease-out will-change-transform">
+  <div class="h-[300px] flex-shrink-0 overflow-hidden bg-gray-50 flex justify-center items-center">
+    <img src="${p.image}" alt="${p.name}" class="w-full h-full object-cover" />
+  </div>
+
+  <div class="p-4 flex flex-col flex-1">
+    <h3 class="text-lg font-semibold text-brown mb-1 break-words">${p.name}</h3>
+    <p class="text-brown/70 text-sm leading-snug break-words">
+      ${p.desc}
+    </p>
+
+    <div class="flex justify-between items-center mt-auto pt-2">
+          <span class="text-base font-bold text-${color}">${p.price}</span>
+          <a href="${p.link}" target="_blank" rel="noopener noreferrer"
+             class="bg-${color} text-white px-4 py-1.5 rounded-full text-sm hover:bg-${color}/90 transition-colors">
+            Beli
+          </a>
+    </div>
+  </div>
+</div>
+  `;
+    });
+
+    // 2) Sisipkan ke DOM sebelum halaman bawah sempat dipaint
+    container.innerHTML = htmlSemuaKartu;
+
+    // 3) Pasang observer ke semua kartu
+    document.querySelectorAll('.anim-card').forEach(el => animCardObserver.observe(el));
+
+    //card untuk aksesoris
+    const toolsProducts = [
+        {
+            name: "Pot",
+            image: "assets/pot-tanaman.webp",
+            desc: "Pot minimalis berbahan kokoh, desain elegan, cocok untuk segala jenis tanaman hias indoor maupun outdoor favoritmu.",
+            price: "10k - 25k",
+            link: "https://shopee.co.id/leafory.universe",
+        },
+        {
+            name: "Teko Siram dan Sprayer",
+            image: "assets/teko-siram-sprayer.webp",
+            desc: "Teko siram ergonomis dengan semprotan halus, memudahkan penyiraman merata tanpa merusak daun atau media tanam.",
+            price: "75k",
+            link: "https://shopee.co.id/leafory.universe",
+        },
+        {
+            name: "Paket Alat Tanaman",
+            image: "assets/alat-berkebun.webp",
+            desc: "Paket lengkap alat berkebun: cangkul mini, sekop, garpu, dan sarung tangan yang praktis, ringan, mudah digunakan.",
+            price: "75k",
+            link: "https://shopee.co.id/leafory.universe",
+        },
+        {
+            name: "Pupuk",
+            image: "assets/pupuk.webp",
+            desc: "Pupuk organik berkualitas, mempercepat pertumbuhan, menyuburkan akar, dan menjaga warna daun tetap sehat dan segar.",
+            price: "15k - 25k",
+            link: "https://shopee.co.id/leafory.universe",
+        },
+    ];
+
+    const toolsColors = ["sage", "olive", "sand"];
+
+    const toolsContainer = document.getElementById("card-container-tools");
+
+    let htmlTools = "";
+    toolsProducts.forEach((p, index) => {
+        const color = toolsColors[index % toolsColors.length];
+        htmlTools += /*html*/`
+      <div class="anim-card w-full bg-white rounded-2xl shadow-lg overflow-hidden flex flex-col
+                  opacity-0 translate-y-16 transition-all duration-[1000ms] ease-out will-change-transform">
+        <div class="h-[300px] flex-shrink-0 overflow-hidden bg-gray-50 flex justify-center items-center">
+          <img src="${p.image}" alt="${p.name}" class="w-full h-full object-cover" />
+        </div>
+        <div class="p-4 flex flex-col flex-1">
+          <h3 class="text-lg font-semibold text-brown mb-1 break-words">${p.name}</h3>
+          <p class="text-brown/70 text-sm leading-snug break-words">${p.desc}</p>
+          <div class="flex justify-between items-center mt-auto pt-2">
+            <span class="text-base font-bold text-${color}">${p.price}</span>
+            <a href="${p.link}" target="_blank" rel="noopener noreferrer"
+             class="bg-${color} text-white px-4 py-1.5 rounded-full text-sm hover:bg-${color}/90 transition-colors">
+            Beli
+          </a>
+          </div>
+        </div>
+      </div>
+    `;
+    });
+
+    toolsContainer.innerHTML = htmlTools;
+
+    document.querySelectorAll("#card-container-tools .anim-card").forEach(el => animCardObserver.observe(el));
+
+    //card merchandise  
+    const fashionProducts = [
+        {
+            name: "Baju Eco Print",
+            image: "assets/baju-ecoprint.webp",
+            desc: "Baju ecoprint dengan motif daun philodendron alami, hadirkan kesan tropis elegan yang segar, unik, dan berkarakter kuat.",
+            price: "120k",
+            link: "https://shopee.co.id/leafory.universe",
+        },
+        // {
+        //   name: "Celana Eco Print",
+        //   image: "assets/celana-ecoprint.webp",
+        //   desc: "Celana ecoprint motif daun philodendron, padukan nuansa tropis alami dengan gaya kasual yang unik dan menawan.",
+        //   price: "Rp 120.000",
+        // },
+        {
+            name: "Jaket Eco Print",
+            image: "assets/jacket-ecoprint.webp",
+            desc: "Jaket ecoprint motif daun philodendron, tampilkan kesan tropis elegan dengan sentuhan alami yang unik dan menawan.",
+            price: "250k",
+            link: "https://shopee.co.id/leafory.universe",
+        },
+        {
+            name: "Topi Eco Print",
+            image: "assets/topi-ecoprint.webp",
+            desc: "Topi ecoprint bernuansa daun philodendron, hadirkan sentuhan alam tropis yang artistik, stylish, dan ramah lingkungan.",
+            price: "100k",
+            link: "https://shopee.co.id/leafory.universe",
+        },
+    ];
+
+    const fashionColors = ["sage", "olive", "sand"];
+
+    const fashionContainer = document.getElementById("card-container-fashion");
+
+    let htmlFashion = "";
+    fashionProducts.forEach((product, index) => {
+        const color = fashionColors[index % fashionColors.length];
+        htmlFashion += /*html*/`
+      <div class="anim-card w-full bg-white rounded-2xl shadow-lg overflow-hidden flex flex-col
+                  opacity-0 translate-y-16 transition-all duration-[1000ms] ease-out will-change-transform">
+        <div class="h-[300px] flex-shrink-0 overflow-hidden bg-gray-50 flex justify-center items-center">
+          <img src="${product.image}" alt="${product.name}" class="w-full h-full object-cover" />
+        </div>
+        <div class="p-4 flex flex-col flex-1">
+          <h3 class="text-lg font-semibold text-brown mb-1 break-words">${product.name}</h3>
+          <p class="text-brown/70 text-sm leading-snug break-words">${product.desc}</p>
+          <div class="flex justify-between items-center mt-auto pt-2">
+            <span class="text-base font-bold text-${color}">${product.price}</span>
+            <a href="${product.link}" target="_blank" rel="noopener noreferrer"
+             class="bg-${color} text-white px-4 py-1.5 rounded-full text-sm hover:bg-${color}/90 transition-colors">
+            Beli
+          </a>
+          </div>
+        </div>
+      </div>
+    `;
+    });
+
+    fashionContainer.innerHTML = htmlFashion;
+
+    document.querySelectorAll("#card-container-fashion .anim-card").forEach(el => animCardObserver.observe(el));
+</script>
+
+</html>
