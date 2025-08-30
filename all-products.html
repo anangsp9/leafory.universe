@@ -4,6 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
     <link rel="icon" href="assets/leafory3.webp" type="image/webp" />
     <link rel="icon" href="/favicon.ico" type="image/x-icon" />
     <title>Leafory - Koleksi Lengkap Leafory Universe</title>
@@ -34,9 +37,16 @@
     ]
     }
     </script>
-    <link href="./src/output.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./src/output.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" media="print"
+        onload="this.media='all'">
+    <noscript>
+        <link rel="stylesheet" href="./src/output.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap">
+    </noscript>
 </head>
 
 <body class="bg-cream text-brown">
@@ -129,7 +139,8 @@
 </body>
 
 <div class="relative h-0 block md:hidden">
-    <img loading="lazy" src="assets/philo-pink-nggantung.webp" width="400" height="400" alt="Dekorasi philodendron" class="absolute left-0 top-0 -translate-y-[55%]
+    <img loading="lazy" src="assets/philo-pink-nggantung.webp" width="400" height="400" alt="Dekorasi philodendron"
+        class="absolute left-0 top-0 -translate-y-[55%]
            w-[37vw] max-w-[174px] h-auto
            opacity-99 z-0 pointer-events-none" />
 </div>
