@@ -37,7 +37,7 @@
     ]
     }
     </script>
-    <link rel="stylesheet" href="./src/output.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="./src/output.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
         media="print" onload="this.media='all'">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" media="print"
@@ -50,12 +50,10 @@
 </head>
 
 <body class="bg-cream text-brown">
-    <header class="relative py-3 px-6 pb-8 bg-brown text-white">
+    <header class="relative py-3 px-6 pb-7 bg-brown text-white">
         <div class="text-center relative z-1">
             <h1 class="text-2xl font-semibold tracking-wide">Semua Produk</h1>
             <h2 class="title text-sm text-white/80 mt-1">Koleksi Lengkap Produk Leafory Universe</h2>
-        </div>
-        <div class="pointer-events-none absolute bottom-0 left-0 right-0 h-4 bg-gradient-to-b from-brown to-cream z-0">
         </div>
     </header>
 
@@ -293,18 +291,18 @@
     // Data
     // =====================
     const products = [
-        { name: "Philo Pink Princess", image: "assets/philo-pink-princess2.webp", desc: "Daun gelap berpadu semburat pink mencolok, tampil unik, elegan, dan jadi incaran kolektor tanaman hias eksklusif.", price: "75k dan 350k", link: "https://shopee.co.id/leafory.universe" },
-        { name: "Philo White Princess", image: "assets/philo-white-princess2.webp", desc: "Tanaman berdaun hijau gelap dengan semburat putih elegan, tampil anggun, eksklusif, dan cocok mempercantik sudut ruangan.", price: "75k dan 350k", link: "https://shopee.co.id/leafory.universe" },
-        { name: "Philo Moonlight", image: "assets/philo-moonlight.webp", desc: "Tanaman hias berdaun hijau terang menyala, tampil elegan, mudah dirawat, dan cocok untuk dekorasi ruangan modern.", price: "35k - 75k", link: "https://shopee.co.id/leafory.universe" },
-        { name: "Philo Prince/Orange", image: "assets/philo-prince.webp", desc: "Tanaman berdaun oranye cerah dengan gradasi hijau, tampilkan kesan hangat, segar, dan eksotis untuk dekorasi ruangan modern.", price: "35k - 75k", link: "https://shopee.co.id/leafory.universe" },
-        { name: "Philo Pink Congo", image: "assets/philo-pink-congo2.webp", desc: "Tanaman dengan daun berwarna pink cerah yang eksotis, tampil mencolok, cocok mempercantik ruangan dengan nuansa tropis elegan.", price: "35k - 75k", link: "https://shopee.co.id/leafory.universe" },
-        { name: "Philo Black Cardinal", image: "assets/philo-black-cardinal.webp", desc: "Daun gelap mengilap bernuansa merah kehitaman, tampil eksotik dan bold, cocok untuk dekorasi rumah yang elegan.", price: "150k - 350k", link: "https://shopee.co.id/leafory.universe" },
-        { name: "Philo Micans", image: "assets/philo-micans.webp", desc: "Tanaman berdaun kecil beludru berwarna hijau gelap keunguan, tampak anggun, menjuntai indah, cocok untuk hiasan gantung elegan.", price: "15k dan 275k", link: "https://shopee.co.id/leafory.universe" },
-        { name: "Philo Micans Air", image: "assets/philo-micans-air.webp", desc: "Philodendron Micans air dengan daun beludru hijau keemasan, tumbuh elegan, cocok mempercantik ruangan rumah Anda.", price: "90k dan 115k", link: "https://shopee.co.id/Tanaman-Micans-Pot-Kaca-Bening-i.1575401095.28788658971" },
-        { name: "Philo Katak/Martianun", image: "assets/philo-katak2.webp", desc: "Tanaman dengan daun besar mengilap berbentuk unik menyerupai katak, tampil eksotis, tebal, dan cocok sebagai dekorasi tropis elegan.", price: "50k - 500k", link: "https://shopee.co.id/leafory.universe" },
-        { name: "Philo Gloriosum", image: "assets/philo-gloriosum2.webp", desc: "Tanaman berdaun beludru hijau lebar dengan tulang daun putih mencolok, tampil mewah, elegan, dan sangat memikat perhatian.", price: "75k - 350k", link: "https://shopee.co.id/leafory.universe" },
-        { name: "Philo Melanochrysum", image: "assets/philo-melanochrysum.webp", desc: "Tanaman dengan daun panjang beludru hijau tua dengan urat keemasan, tampil mewah, eksotis, dan cocok untuk koleksi premium.", price: "35k - 350k", link: "https://shopee.co.id/leafory.universe" },
-        { name: "Philo Birkin", image: "assets/philo-birkin.webp", desc: "Daun hijau bergaris putih elegan, tampil menawan, cocok sebagai tanaman hias indoor yang unik dan mudah dirawat.", price: "75k - 350k", link: "https://shopee.co.id/leafory.universe" },
+        { name: "Philo Pink Princess", image: "assets/philo-pink-princess2.webp", desc: "Sang putri nan memesona. Kontras yang mencolok antara warna hijau gelap dan percikan pink yang cantik membuat setiap daunnya terlihat bagai karya seni yang ajaib.", price: "75k dan 350k", link: "https://shopee.co.id/leafory.universe" },
+        { name: "Philo White Princess", image: "assets/philo-white-princess2.webp", desc: "Pesona putih yang memukau. Daunnya yang hijau tua dihiasi bercak-bercak putih yang tersebar acak, menciptakan corak unik yang elegan dan berkelas.", price: "75k dan 350k", link: "https://shopee.co.id/leafory.universe" },
+        { name: "Philo Moonlight", image: "assets/philo-moonlight.webp", desc: "Pesona alam yang memancarkan cahaya, dengan daun hijau limau cerah yang menawan, menciptakan nuansa segar dan ceria di setiap sudut ruangan.", price: "35k - 75k", link: "https://shopee.co.id/leafory.universe" },
+        { name: "Philo Prince/Orange", image: "assets/philo-prince.webp", desc: "Setiap daun barunya adalah kejutan warna! Mulai dari oranye cerah hingga kuning keemasan, ia menawarkan palet warna hangat yang selalu berubah seiring waktu, bagai lukisan hidup di rumahmu.", price: "35k - 75k", link: "https://shopee.co.id/leafory.universe" },
+        { name: "Philo Pink Congo", image: "assets/philo-pink-congo2.webp", desc: "Kejutkan matamu dengan keunikan Philodendron ini. Daunnya memukau dengan semburat warna merah muda yang cerah, menciptakan statement piece yang berani dan penuh pesona.", price: "35k - 75k", link: "https://shopee.co.id/leafory.universe" },
+        { name: "Philo Black Cardinal", image: "assets/philo-black-cardinal.webp", desc: "Si misterius yang mewah. Daunnya yang tebal berwarna hijau sangat gelap, hampir menyerupai hitam, memancarkan aura elegan dan kemewahan yang klasik dan memikat.", price: "150k - 350k", link: "https://shopee.co.id/leafory.universe" },
+        { name: "Philo Micans", image: "assets/philo-micans.webp", desc: "Jatuh cinta pada tekstur. Daunnya yang lembut seperti beludru memiliki kilau perunggu yang indah saat muda, lalu berubah menjadi hijau gelap yang menenangkan.", price: "15k dan 275k", link: "https://shopee.co.id/leafory.universe" },
+        { name: "Philo Micans Air", image: "assets/philo-micans-air.webp", desc: "Micans pada umumnya, tetapi dengan media tanam air, hydrogel, san hidrotone. Membuat tampak dalam gelas kaca yang bening menjadi elegant.", price: "90k dan 115k", link: "https://shopee.co.id/Tanaman-Micans-Pot-Kaca-Bening-i.1575401095.28788658971" },
+        { name: "Philo Katak/Martianun", image: "assets/philo-katak2.webp", desc: "Keunikan yang tak terduga. Batang daunnya yang gemuk dan pendek menopang daun-daun hijau yang bergelombang, menciptakan tekstur unik seperti kaki katak yang memukau.", price: "50k - 500k", link: "https://shopee.co.id/leafory.universe" },
+        { name: "Philo Gloriosum", image: "assets/philo-gloriosum2.webp", desc: "Mahakarya alam yang anggun. Daunnya berbentuk hati raksasa dengan permukaan beludru yang lembut dan urat daun putih yang sangat menonjol, memancarkan kesan mewah dan klasik.", price: "75k - 350k", link: "https://shopee.co.id/leafory.universe" },
+        { name: "Philo Melanochrysum", image: "assets/philo-melanochrysum.webp", desc: "Ratu beludru. Daunnya yang memanjang, berwarna hijau sangat gelap, dan bertekstur beludru halus adalah perpaduan keanggunan dan pesona, siap menjadi bintang utama di koleksimu.", price: "35k - 350k", link: "https://shopee.co.id/leafory.universe" },
+        { name: "Philo Birkin", image: "assets/philo-birkin.webp", desc: "Elegan dan artistik, daun hijau gelapnya dihiasi guratan garis putih krem yang unik, bagaikan lukisan alam yang tiada duanya untuk memperindah ruangmu.", price: "75k - 350k", link: "https://shopee.co.id/leafory.universe" },
     ];
 
     const colors = ["sage", "olive", "sand"]; // pastikan disafelist di tailwind.config.js jika perlu
@@ -387,7 +385,7 @@
         },
         {
             name: "Pupuk",
-            image: "assets/pupuk3.webp",
+            image: "assets/pupuk4.webp",
             desc: "Pupuk organik berkualitas, mempercepat pertumbuhan, menyuburkan akar, dan menjaga warna daun tetap sehat dan segar.",
             price: "15k - 25k",
             link: "https://shopee.co.id/leafory.universe",
@@ -431,21 +429,21 @@
         {
             name: "Baju Eco Print",
             image: "assets/baju-ecoprint.webp",
-            desc: "Baju ecoprint dengan motif daun philodendron alami, hadirkan kesan tropis elegan yang segar, unik, dan berkarakter kuat.",
+            desc: "Setiap baju adalah kanvas unik yang menceritakan kisahnya sendiri. Dibuat dengan sentuhan alam, serat kainnya menangkap jejak, warna, dan detail daun atau bunga asli, menjadikannya busana yang tidak hanya indah, tetapi juga ramah lingkungan.",
             price: "120k",
             link: "https://shopee.co.id/leafory.universe",
         },
         {
             name: "Jaket Eco Print",
             image: "assets/jacket-ecoprint.webp",
-            desc: "Jaket ecoprint motif daun philodendron, tampilkan kesan tropis elegan dengan sentuhan alami yang unik dan menawan.",
+            desc: "Jaket Ecoprint Motif Daun Philodendron menghadirkan nuansa tropis elegan dengan sentuhan alami yang unik. Menggunakan teknik ecoprint ramah lingkungan, setiap motif daun tercetak eksklusif, nyaman dipakai, dan cocok untuk gaya kasual maupun semi-formal.",
             price: "250k",
             link: "https://shopee.co.id/leafory.universe",
         },
         {
             name: "Topi Eco Print",
             image: "assets/topi-ecoprint.webp",
-            desc: "Topi ecoprint bernuansa daun philodendron, hadirkan sentuhan alam tropis yang artistik, stylish, dan ramah lingkungan.",
+            desc: "Lindungi dirimu dengan kehangatan dan keindahan alam. Topi ini dirancang dengan motif alami dari dedaunan dan bunga, menciptakan perpaduan fungsionalitas dan seni yang unik. Ia adalah pendamping yang sempurna untuk setiap petualanganmu, menawarkan gaya yang berbeda dan pesan ramah lingkungan.",
             price: "100k",
             link: "https://shopee.co.id/leafory.universe",
         },
